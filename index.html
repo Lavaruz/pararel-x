@@ -1,0 +1,134 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Pararel X</title>
+</head>
+<body class="bg-[#000] font-second">
+
+    <section class="px-32 navbar flex justify-between items-start sticky py-8 top-0 z-10 bg-gradient-to-b from-[#000] to-transparent">
+        <img src="./img/Brand.svg" width="20%" alt="">
+        <div class="flex items-center">
+            <div style="background-image: url('img/Navbar-Kiri.png');" class="flex items-center gap-20 text-white py-2 px-10 bg-cover">
+                <a href="#about" class="text-sm font-bold hover:text-[#FF7204] duration-200">About</a>
+                <a href="#manual" class="text-sm font-bold hover:text-[#FF7204] duration-200">Manual</a>
+                <a href="#contact-us" class="text-sm font-bold hover:text-[#FF7204] duration-200">Contact Us</a>
+            </div>
+            <div style="background-image: url('img/Navbar-Right.png');" class="flex items-center gap-20 text-white py-2 px-10 bg-cover">
+                <a href="#download" class="text-sm font-bold text-[#000]">Get it Now</a>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section style="background-image: url('img/Hero.png');" class="pb-20 py-14 px-32 bg-right bg-contain bg-no-repeat">
+
+        <div class="">
+            <div class="w-[420px] mt-20">
+                <p class="text-3xl text-[#85E6FF] font-extrabold">Elevate Your Squad Vibes With the Coolest VR Puzzle Co-Op!</p>
+                <button class="bg-[#000] border-2 border-white rounded-xl text-white px-10 pe-28 py-2.5 mt-8">Available on ...</button>
+            </div>
+            <div class="mt-8">
+                <img src="./img/Carousel.png" class="rounded-lg" width="300" alt="">
+            </div>
+        </div>
+        
+    </section>
+
+    <section id="about" class="py-20 font-second flex items-center flex-col relative">
+
+        <img src="./img/Kiri.png" class="absolute left-0 bottom-[5rem] w-[210px]" alt="">
+
+        <div class="text-center w-[700px] m-auto">
+            <p class="text-[#85E6FF] font-extrabold text-[30px] ">Watch it in Action</p>
+            <p class="text-[#85E6FF]/50">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis doloremque fugit tempore iure error aspernatur consectetur ullam accusantium minima possimus?</p>
+        </div>
+        <div class="w-[920px] mt-8 m-auto rounded-lg h-[500px] bg-[#8D8D8D] flex items-center justify-center">Video</div>
+        <div class="grid grid-cols-5 mt-20">
+            <img src="./img/Award.png" width="140" alt="">
+            <div class=""></div>
+            <img src="./img/Award.png" width="140" alt="">
+            <div class=""></div>
+            <img src="./img/Award.png" width="140" alt="">
+            <div class=""></div>
+            <img src="./img/Award.png" width="140" alt="">
+            <div class=""></div>
+            <img src="./img/Award.png" width="140" alt="">
+        </div>
+
+        <img src="./img/Kanan.png" class="absolute right-0 bottom-[5rem] w-[210px]" alt="">
+
+    </section>
+
+    <section style="background-image: url('img/WARNING.png');" class="py-14 px-32 w-full bg-cover h-[400px] bg-no-repeat"></section>
+
+
+    <!-- Manuals -->
+    <section id="manual" class="min-h-screen p-20">
+        <div style="background-image: url('img/BG-Blue.png');" class="w-full py-14 pb-24 px-20 bg-contain bg-no-repeat h-full">
+            <p class="text-3xl text-[#85E6FF] text-center font-extrabold">Solve Alien Symbol Puzzles based on<br>X Manuals.</p>
+            <div class="grid grid-cols-8 mt-14 justify-between gap-8">
+                <div class="col-span-3">
+                    <div class="">
+                        <p class="text-white text-[20px] font-extrabold">Fix Various starships and collect clues</p>
+                        <p class="text-[#85E6FF]/50 text-sm mt-2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a </p>
+                    </div>
+                    <div class="mt-16">
+                        <p class="text-white text-[20px] font-extrabold">The success of every Co-Op mission relies on effective communication and coordination among all players.</p>
+                        <p class="text-[#85E6FF]/50 text-sm mt-2">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    </div>
+                </div>
+                <div class="col-span-5 bg-[#8D8D8D] rounded-xl flex items-center justify-center">Foto Suasana</div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Download Get The APP -->
+    <section id="download" style="background-image: url('img/GetIt.png');" class="py-20 px-32 w-full bg-cover h-[90vh] bg-no-repeat">
+        <div class="flex justify-center">
+            <img src="./img/GETITNOW.png" width="500" alt="">
+        </div>
+        <div class="grid grid-cols-2 mt-20 w-[60vw] m-auto">
+            <div class="flex flex-col gap-6">
+                <p class="text-white font-extrabold text-xl text-center">PC</p>
+                <div style="background-image: url('img/Download-Rect.png');" class="scale-[.85] cursor-pointer flex gap-2 items-center bg-no-repeat p-4 pb-5 justify-center bg-center">
+                    <img src="./img/Windows.png" alt="">
+                    <p class="text-white font-extrabold">Windows</p>
+                </div>
+                <div style="background-image: url('img/Download-Rect.png');" class="scale-[.85] cursor-pointer flex gap-2 items-center bg-no-repeat p-4 pb-5 justify-center bg-center">
+                    <img src="./img/Apple Logo.png" alt="">
+                    <p class="text-white font-extrabold">IOS</p>
+                </div>
+            </div>
+            <div class="flex flex-col gap-6">
+                <p class="text-white font-extrabold text-xl text-center">VR</p>
+                <div style="background-image: url('img/Download-Rect.png');" class="scale-[.85] cursor-pointer flex gap-2 items-center bg-no-repeat p-4 pb-5 justify-center bg-center">
+                    <img src="./img/Meta.svg" alt="">
+                    <p class="text-white font-extrabold">Meta Quest</p>
+                </div>
+                <div style="background-image: url('img/Download-Rect.png');" class="scale-[.85] cursor-pointer flex gap-2 items-center bg-no-repeat p-4 pb-5 justify-center bg-center">
+                    <img src="./img/Pico.svg" alt="">
+                    <p class="text-white font-extrabold">Pico</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Us -->
+    <section id="contact-us" class="min-h-screen">
+        <p class="text-[#85E6FF] font-extrabold text-[30px] text-center pt-20">Contact Us</p>
+    </section>
+
+    <footer class="bg-[#1C1C1C] text-[#AAAAAA]">
+        <p class="text-xs w-[75%] mx-auto py-6">All rights reserved Steel Crate Games, Inc. 2018 © “PS logo” and “PlayStation” are registered trademarks or trademarks of Sony Interactive Entertainment Inc. Nintendo Switch is a trademark of Nintendo.</p>
+    </footer>
+</body>
+</html>
